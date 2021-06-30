@@ -1,13 +1,19 @@
-<?php include('header.php'); ?>
+<?php
+
+$pageTitle = 'Home';
+
+include('header.php');
+
+?>
 
 
 
 <section class='name'>
 	<inner-column>
-	
-		<h1 class='loud-voice'>Index</h1>
 
-		<p class='calm-voice'>Hello. This is an index page.</p>
+		<h1 class='loud-voice'>Home</h1>
+
+		<p class='calm-voice'>Hello. This is the home page.</p>
 
 	</inner-column>
 </section>

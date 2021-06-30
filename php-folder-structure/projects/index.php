@@ -1,10 +1,14 @@
-<?php include('header.php'); ?>
+<?php
 
+$pageTitle = 'Projects';
 
+include('../header.php');
+
+?>
 
 <section class='name'>
 	<inner-column>
-	
+
 		<h1 class='loud-voice'>Projects</h1>
 
 		<p class='calm-voice'>Here they are:</p>
@@ -22,7 +26,7 @@
 		<ul>
 			<?php foreach ($projects as $project) { ?>
 			<li>
-				<a href='<?=$project["key"]?>'>
+				<a href='/projects/<?=$project["key"]?>'>
 					<h3 class='attention-voice'>
 						<span><?=$project["title"]?></span>
 					</h3>
@@ -36,4 +40,4 @@
 
 
 
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
