@@ -10,7 +10,9 @@
 	// this will only work if we route everything through the root index.php
 	define('ROOT', getcwd());
 
-
+	// this can be hidden but i left it in for debugging purposes
+	echo 'SiteRoot: ' . $_COOKIE['siteRoot'];
+	//print_r($_SERVER['REQUEST_URI']);
 	// this would also mean including a file from  the root dir
 	// and if you know how to get to the root dir then just add `../` where necessary
 

@@ -8,7 +8,7 @@
 	<meta name='description' content='[[insert description]]'>
 	<meta property='og:image' content='images/default.png'>
 
-	<link rel='stylesheet' href='/css/site.css'> <!-- the slash (/) at the beginning makes this an absolute URL and allows using this same head file in sub directories like '/projects' -->
+	<link rel='stylesheet' href='<?php echo $_COOKIE['siteRoot'] ?>/css/site.css'> <!-- the slash (/) at the beginning makes this an absolute URL and allows using this same head file in sub directories like '/projects' -->
 	<!--
 
 		A couple quick points about the differences between URL paths and file system paths

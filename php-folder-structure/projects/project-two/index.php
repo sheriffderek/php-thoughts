@@ -9,7 +9,7 @@
 
 		<p>Maybe this will want to share styles with the main site. Maybe not?</p>
 
-		<a href='/projects'>back to projects</a>
+		<a href='<?php echo $_COOKIE['siteRoot'] ?>/projects'>back to projects</a>
 
 	</inner-column>
 </section>

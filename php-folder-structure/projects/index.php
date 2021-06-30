@@ -26,7 +26,7 @@ include('../header.php');
 		<ul>
 			<?php foreach ($projects as $project) { ?>
 			<li>
-				<a href='/projects/<?=$project["key"]?>'>
+				<a href='<?php echo $_COOKIE['siteRoot'] ?>/projects/<?=$project["key"]?>'>
 					<h3 class='attention-voice'>
 						<span><?=$project["title"]?></span>
 					</h3>
