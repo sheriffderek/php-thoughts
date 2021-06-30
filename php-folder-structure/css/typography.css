@@ -1,0 +1,22 @@
+
+/* TYPOGRAPHY */
+.loud-voice	{
+	font-family: sans-serif;
+	font-size: clamp(36px, 5vw, 60px);
+}
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700;
+	}
+}
+
+.attention-voice	{
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.calm-voice {
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+}

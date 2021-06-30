@@ -1,0 +1,10 @@
+
+.site-menu {
+	display:  flex;
+	flex-direction: row;
+	transform:  translateX(-10px);
+}
+
+.site-menu a {
+	padding:  10px;
+}

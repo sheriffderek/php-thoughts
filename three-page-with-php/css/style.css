@@ -1,0 +1,21 @@
+
+@import 'site-menu.css';
+
+body {
+	color: purple;
+}
+
+
+footer {
+	background-color: red;
+}
+
+footer a {
+	color: white;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}

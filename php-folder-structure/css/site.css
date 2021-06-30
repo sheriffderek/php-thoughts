@@ -1,0 +1,25 @@
+
+@import 'meyer-reset.css';
+@import 'setup.css';
+@import 'structure.css';
+@import 'settings.css';
+@import 'typography.css';
+@import 'components.css';
+@import 'modules.css';
+
+
+body {
+	background-color: var(--color);
+}
+
+.site-header {
+	border: 1px solid red;
+}
+
+.page-content {
+	border: 1px solid blue;
+}
+
+.site-footer {
+	border: 1px solid green;
+}

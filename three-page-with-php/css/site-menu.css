@@ -1,0 +1,12 @@
+
+.site-menu {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.site-menu a {
+	display: block;
+	padding: 10px;
+	color: green;
+}
